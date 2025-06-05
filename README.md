@@ -1,7 +1,7 @@
 # How to run:
 Download fraud_detection.py. Start the app with:
 ```
-uvicorn rag_ai_agent:app --host 0.0.0.0 --port 8082 --reload
+uvicorn fraud_detection:app --reload
 ```
 in your terminal. Then open your browser at http://127.0.0.1:8000 to upload images and see predictions.
 
